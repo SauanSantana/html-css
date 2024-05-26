@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgb(31, 30, 30);
+        }
+        header{
+            background-color: rgba(157, 161, 161, 0.779);
+            padding: 10px;
+            margin: 10px;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(115, 115, 115);
+            padding: 3px;
+            box-shadow: 3px 4px 5px  rgba(0, 0, 0, 0.503);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a::hover{
+           text-decoration: underline; 
+        }
+        main{
+            background-color: rgb(115, 115, 115);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgba(87, 87, 87, 0.574);
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color:white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 id="cetralizar">noticias sobre o Brasil</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque quas excepturi quis sit repellendus nostrum, commodi minus totam, cupiditate et sequi ea labore maxime ab eius laboriosam ut voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente mollitia cumque quasi ipsam consequuntur consequatur? Aliquid sapiente praesentium libero et, maiores illo neque ipsa facilis iure. Asperiores at et distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia provident vitae veniam unde illo, harum, autem cumque quis facilis, distinctio rem iusto reiciendis iure? Velit assumenda beatae obcaecati rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere velit numquam accusamus saepe dolor, molestias rem, hic eos officiis dolore sequi esse iure aspernatur maxime eveniet porro cupiditate est!
+                </p>
+                <aside>
+                    Artigo escrito por Sauan Santtana
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Sauan Santtana
+    </footer>
+</body>
+</html>
