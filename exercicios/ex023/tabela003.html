@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        .diferente{
+            background-color: blue;
+        }
+        .diferente2{
+            background-color: darkgray;
+        }
+        tbody td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        .cor1{
+            background-color: rgba(255, 166, 0, 0.959);
+        }
+        .cor2{
+            background-color: rgb(198, 109, 0);
+        }
+        tfoot > tr > th{
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <thead>
+        <th class="diferente" colspan="2">1º/2º EJA JUVENIL</th>
+           <tr class="diferente2">
+                <th>DISCIPLINA</th>
+                <th>PROFESSOR</th>
+           </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td class="cor1">BIOLOGIA</td>
+            <td class="cor1">POLLYANA</td>
+        </tr>
+        <tr>
+            <td class="cor2">FISICA</td>
+            <td class="cor2">LUCIANO</td>
+        </tr>
+        <tr>
+            <td class="cor1">MATEMATICA</td>
+            <td class="cor1">GRAZY</td>
+        </tr>
+        <tr>
+            <td class="cor2">MATEMATICA</td>
+            <td class="cor2">GRAZY</td>
+        </tr>
+        <tr>
+            <td class="cor1">REDAÇÃO</td>
+            <td class="cor1">KEILA</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+            <th colspan="2">HORÁRIO NOTURNO</th>
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>
